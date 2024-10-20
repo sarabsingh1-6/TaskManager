@@ -1,0 +1,74 @@
+.task-manager {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  form input, form textarea, form select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  li h3 {
+    margin: 0;
+  }
+  
+  li span {
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  li.high {
+    background-color: #f8d7da;
+  }
+  
+  li.medium {
+    background-color: #fff3cd;
+  }
+  
+  li.low {
+    background-color: #d4edda;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  form button {
+    background-color: #28a745;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 600px) {
+    .task-manager {
+      padding: 10px;
+    }
+  }
+  
